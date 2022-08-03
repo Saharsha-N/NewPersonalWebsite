@@ -1,5 +1,42 @@
-/* Custom.css < Do your own thing! */
-
 body {
-    background: transparent;
+  background: transparent;
+  cursor: none !important;
+}
+
+img.inverted,
+img.default {
+  height: 100px;
+  width: 100px;
+}
+
+.list-style-2 {
+  padding: 0;
+}
+
+.social-icons {
+  margin: 0;
+  padding: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.social-icons li {
+  margin: 2px 6px;
+  padding: 0;
+  overflow: visible;
+}
+
+.list-style-2>li {
+  list-style-type: none;
+  border-bottom: 1px solid #eaeaea;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.mfp-content {
+  cursor: none !important;
+  
 }
