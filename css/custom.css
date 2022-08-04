@@ -38,5 +38,156 @@ img.default {
 
 .mfp-content {
   cursor: none !important;
-  
+}
+
+.border-start {
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-image: linear-gradient(to bottom, red, rgb(226, 59, 226)) 1 100%;
+}
+
+.accordion .accordion-item {
+  border: none;
+  margin-bottom: 10px;
+  margin-bottom: 0.6rem;
+  background-color: transparent;
+}
+
+.accordion .accordion-header .accordion-button {
+  box-shadow: none;
+  padding: 1.25rem 1.25rem 1.25rem 2.25rem;
+  border-radius: 4px;
+  position: relative;
+  font-size: 1.125rem;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.accordion:not(.accordion-flush) .accordion-header .accordion-button {
+  background-color: black;
+  color: #212529;
+}
+
+.accordion:not(.accordion-flush) .accordion-header .accordion-button.collapsed {
+  background-color: rgba(0, 0, 0, 0.06);
+  color: #4c4d4d;
+}
+
+.accordion .accordion-header .accordion-button:after {
+  position: absolute;
+  content: " ";
+  left: 20px;
+  top: calc(50% + 2px);
+  width: 9px;
+  height: 9px;
+  border-color: #CCC;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+  transform: translate(-50%, -50%) rotate(-45deg);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-image: none;
+}
+
+.accordion .accordion-header .accordion-button.collapsed:after {
+  top: calc(50% - 2px);
+  -webkit-transform: translate(-50%, -50%) rotate(135deg);
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.accordion .accordion-body {
+  color: white;
+  line-height: 1.8;
+  padding: 1rem 0 0.4rem 2.25rem;
+}
+
+.accordion.arrow-right .accordion-header .accordion-button {
+  padding-left: 1.25rem;
+}
+
+.accordion.arrow-right .accordion-header .accordion-button:after {
+  right: 15px;
+  left: auto;
+}
+
+.accordion.arrow-right .accordion-body {
+  padding-left: 1.25rem;
+}
+
+.accordion.accordion-flush .accordion-item {
+  margin: 0;
+}
+
+.accordion.accordion-flush .accordion-header .accordion-button {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  background: transparent;
+  color: var(--accent);
+}
+
+.accordion.accordion-flush .accordion-item:first-of-type .accordion-header .accordion-button {
+  border-top: 0px;
+}
+
+.accordion.accordion-flush .accordion-header .accordion-button:after {
+  left: 18px;
+}
+
+.accordion.accordion-flush .accordion-header .accordion-button.collapsed {
+  color: white;
+}
+
+.accordion.accordion-flush .accordion-body {
+  padding: 0rem 0 1rem 2.25rem;
+}
+
+.accordion.accordion-flush.arrow-right .accordion-header .accordion-button {
+  padding-left: 0;
+}
+
+.accordion.accordion-flush.arrow-right .accordion-header .accordion-button:after {
+  right: 0px;
+  left: auto;
+}
+
+.rtl .accordion .accordion-header .accordion-button {
+  padding: 1rem 2.25rem 1rem 1.25rem;
+}
+
+.rtl .accordion .accordion-header .accordion-button:after {
+  left: auto;
+  right: 12px;
+}
+
+.rtl .accordion .accordion-body {
+  padding-right: 2.25rem;
+  padding-left: 0;
+}
+
+.rtl .accordion.arrow-right .accordion-header .accordion-button {
+  padding-right: 1.25rem;
+  padding-left: 2.25rem;
+}
+
+.rtl .accordion.arrow-right .accordion-header .accordion-button::after {
+  left: 20px;
+  right: auto;
+}
+
+.rtl .accordion.arrow-right .accordion-body {
+  padding-right: 1.25rem;
+  padding-left: 0;
+}
+
+.rtl .accordion.accordion-flush.arrow-right .accordion-header .accordion-button {
+  padding-right: 0;
+  padding-left: 2.25rem;
+}
+
+.rtl .accordion.accordion-flush.arrow-right .accordion-header .accordion-button::after {
+  left: 6px;
+  right: auto;
 }
