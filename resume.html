@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
     <title>Neoto | Portfolio HTML Template</title>
     <link href="css/main.bundle.css" rel="stylesheet" type="text/css">
     <link href="css/custom.css" rel="stylesheet" type="text/css">
@@ -15,321 +19,286 @@
         integrity="sha512-9nqhm3FWfB00id4NJpxK/wV1g9P2QfSsEPhSSpT+6qrESP6mpYbTfpC+Jvwe2XY27K5mLwwrqYuzqMGK5yC9/Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&amp;display=swap" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#777777">
     <meta name="msapplication-TileColor" content="#999999">
     <meta name="theme-color" content="#999999">
+    <script src="https://use.fontawesome.com/3903c9d7fd.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" rel="stylesheet">
+    <style>
+        .nav-item {
+            color: black !important;
+        }
+
+        body.scrolled .navbar-brand {
+            filter: invert(0) !important;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="menu" id="menu">
+        <nav>
+            <ul>
+                <li class="nav-item active"><a class="nav-link" href="index.html">home</a></li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+                        data-toggle="dropdown">pages</a>
+                    <div class="dropdown-menu"><a class="dropdown-item" href="about.html">About</a><a class="dropdown-item"
+                            href="services.html">Services</a><a class="dropdown-item" href="404.html">404</a></div>
+                </li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+                        data-toggle="dropdown">portfolio</a>
+                    <div class="dropdown-menu"><a class="dropdown-item" href="projects-grid.html">Projects - Grid</a><a
+                            class="dropdown-item" href="projects-slider.html">Projects - Slider</a><a class="dropdown-item"
+                            href="projects-lightbox.html">Projects - Lightbox</a><a class="dropdown-item"
+                            href="project-single.html">Project single</a><a class="dropdown-item"
+                            href="project-single-hero.html">Project single - Hero</a><a class="dropdown-item"
+                            href="project-single-alt.html">Project single - Alt</a></div>
+                </li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+                        data-toggle="dropdown">blog</a>
+                    <div class="dropdown-menu"><a class="dropdown-item" href="blog-slider.html">Blog - Slider</a><a
+                            class="dropdown-item" href="blog-grid.html">Blog - Grid</a><a class="dropdown-item"
+                            href="blog-single.html">Blog single</a><a class="dropdown-item" href="blog-single-alt.html">Blog
+                            single - Alt</a><a class="dropdown-item" href="blog-single-hero.html">Blog single - Hero</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </div>
     <header class="fixed-top ">
         <div class="navbar"><a class="navbar-brand" href="index.html"> <img class="default"
-                    alt="Neoto - Creative Studio Portfolio Template" src="images/logo.svg"><img class="inverted"
-                    alt="Neoto - Creative Studio Portfolio Template" src="images/logo-white.svg"></a><button
+                    alt="" src="images/logo.png"><img class="inverted"
+                    alt="" src="images/logo.png"></a><button
                 class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"><span
                     class="toggle-label">Menu</span><span class="toggle-label-close">Close</span><span
                     class="toggle-icon"><span class="line"></span><span class="line"></span></span></button></div>
-        <ul id="nav">
-            <li class="nav-item active"><a class="nav-link" href="index.html">home</a></li>
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                    data-toggle="dropdown">pages</a>
-                <div class="dropdown-menu"><a class="dropdown-item" href="about.html">About</a><a class="dropdown-item"
-                        href="services.html">Services</a><a class="dropdown-item" href="404.html">404</a></div>
-            </li>
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                    data-toggle="dropdown">portfolio</a>
-                <div class="dropdown-menu"><a class="dropdown-item" href="projects-grid.html">Projects - Grid</a><a
-                        class="dropdown-item" href="projects-slider.html">Projects - Slider</a><a class="dropdown-item"
-                        href="projects-lightbox.html">Projects - Lightbox</a><a class="dropdown-item"
-                        href="project-single.html">Project single</a><a class="dropdown-item"
-                        href="project-single-hero.html">Project single - Hero</a><a class="dropdown-item"
-                        href="project-single-alt.html">Project single - Alt</a></div>
-            </li>
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                    data-toggle="dropdown">blog</a>
-                <div class="dropdown-menu"><a class="dropdown-item" href="blog-slider.html">Blog - Slider</a><a
-                        class="dropdown-item" href="blog-grid.html">Blog - Grid</a><a class="dropdown-item"
-                        href="blog-single.html">Blog single</a><a class="dropdown-item" href="blog-single-alt.html">Blog
-                        single - Alt</a><a class="dropdown-item" href="blog-single-hero.html">Blog single - Hero</a>
-                </div>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">contact</a></li>
-        </ul>
     </header>
-    <main>
-        <section class="pt-0 border-bottom">
-            <div class="container pb-5">
-                <div class="row pt-5 vh-50 d-lg-flex align-items-end justify-content-end">
-                    <div class="col-sm-6">
-                        <h1 class="massive"><span class="d-block in-left">My</span><span
-                                class="d-block in-top">Resume</span></h1>
+    <div class="container2">
+        <main>
+            <section class="pt-0 border-bottom" style="background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, white 11%, white 90%, rgba(0, 0, 0, 0.1) 100%);">
+                <div class="container pb-1">
+                    <div class="row pt-5 vh-50 d-lg-flex align-items-end justify-content-end">
+                        <div class="col-sm-6">
+                            <h1 class="massive"><span class="d-block in-left">My</span><span
+                                    class="d-block in-top">Resume</span></h1>
+                        </div>
+                        <div class="col-sm-5 ps-6 offset-sm-1 in-top" style="padding-left: 3rem;">
+                            <h6>Contact Information</h6>
+                            <p><i class="fa-solid fa-envelope-open"></i> : vansah2017@gmail.com <br>
+                                <i class="fa-solid fa-phone"></i> : 484-437-7024 <br>
+                                <i class="fa-solid fa-location-dot"></i> : Chester Springs, PA
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-sm-5 ps-4 offset-sm-1 in-top" style="padding-left: 3rem;">
-                        <h6>Contact Information</h6>
-                        <p><i class="fa-solid fa-envelope-open"></i> : vansah2017@gmail.com <br>
-                            <i class="fa-solid fa-phone"></i> : 484-437-7024 <br>
-                            <i class="fa-solid fa-location-dot"></i> : Chester Springs, PA
-                        </p>
+                </div><img class="img-fluid mx-auto d-block vw-50 in-left" style="width: 25vw;"
+                    alt="" src="/images/divider.gif">
+                <div class="container py-6">
+                    <!-- <div class="row">
+                        <div class="offset-sm-2 col-sm-8">
+                            <h3>A heavenly character</h3>
+                            <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
+                                model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                                infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
+                                purpose.</p><a class="lightbox" href="images/project8.jpg"><img class="w-100 img-fluid mt-5"
+                                    alt="" src="images/project8.jpg"></a>
+                        </div>
+                    </div> -->
+                    <div class="row g-5 mt-5">
+                        <!-- My Education -->
+                        <div class="col-lg-6 wow in-left">
+                            <h2 class="text-7 fw-600 mb-4 pb-2">My Education</h2>
+                            <div class="border-start border-2 border-primary ps-3"
+                                style="backdrop-filter: blur(7px) brightness(1.1);">
+                                <h3 class="text-5">Sophomore in High School</h3>
+                                <p class="mb-2">Downingtown STEM Academy / August 2021 - Present</p>
+                                <p class="text-muted">
+                                    I am currently progressing into my 10th grade year at the <a
+                                        href="https://st.dasd.org/" target="_blank">Downingtown STEM
+                                        Academy</a>. <br>
+                                    I enrolled into this school because of my deep interest in the <b>STEM
+                                        Fields</b> (<i>Science, Technology, Engineering, and Math</i>).
+                                </p>
+                                <hr class="my-4">
+                                <!-- <h3 class="text-5">Masters in Electrical Engineering</h3>
+                                <p class="mb-2">University of Pennsylvania / August 2021 - Present</p>
+                                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p> -->
+                                <hr class="my-4">
+                                <!-- <h3 class="text-5">Masters in Quantum Physics</h3>
+                                <p class="mb-2">CERN Laboratory / August 2019 - June 2021</p>
+                                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p> -->
+                            </div>
+                        </div>
+                        <!-- My Experience -->
+                        <div class="col-lg-6 wow in-left" data-wow-delay="0.2s">
+                            <h2 class="text-7 fw-600 mb-4 pb-2">My Experience</h2>
+                            <div class="border-start border-2 border-primary ps-3"
+                                style="backdrop-filter: blur(7px) brightness(1.1);">
+                                <h3 class="text-5">Lead Web Developer / Programming Co-Leader</h3>
+                                <p class="mb-2">Downingtown Area Robotics / 2020 - Current</p>
+                                <p class="text-muted">
+                                    I am the <b>Lead Developer</b> and a <b>current member</b> of the <a
+                                        href="https://darobotics.org/" target="_blank">Downingtown Area Robotics
+                                        (501)(c) Organization</a>
+                                    This organization has played a pivotal role in my development as
+                                    <b>programmer</b> and a <b>person</b>.
+                                </p>
+                                <hr class="my-4">
+                                <h3 class="text-5">Technology Student Assocation (TSA) | <br> TSA Nationals Web Development Leader </h3>
+                                <p class="mb-2">TSA / 2020 - 2021</p>
+                                <p class="text-muted">I was the <b>leader</b> of my Web Development team during the <br> <b>2021 - 2022 TSA Nationals Web Development Competition</b>. Using my graphic design, web development, and team leadership skills, I progressed my team to the finals of the competition, where we ended up <b>victorious</b>.</p>
+                                <hr class="my-4">
+                                <h3 class="text-5">TSA Chapter Treasurer</h3>
+                                <p class="mb-2">Downingtown STEM Academy / 2022 - Present</p>
+                                <p class="text-muted">Currently, I am serving as the <b>TSA Chapter Treasurer</b> of my school. Through this position, I will learn how to <b>manage, allocate, and raise funds for an organization</b>, while collaborating with other leaders to ensure my Chapter Members have the <b>best</b> TSA experience.</p>
+                            </div>
+                        </div>
                     </div>
+                    <!-- My Skills -->
+                    <h2 class="text-7 fw-600 mb-4 pb-2 mt-5 wow in-left">My Skills</h2>
+                    <div class="row gx-5" style="backdrop-filter: blur(7px) brightness(1.1);">
+                        <div class="col-md-6 wow in-left">
+                            <p class="fw-500 text-start mb-2" style="font-size: 1.25rem;">Swift</p>
+                            <div id="swift" class="border-start border-2 border-primary ps-3 mb-4"
+                                style="backdrop-filter: blur(7px) brightness(1.1);">
+                                <h3 class="text-5">Lead Web Developer / Programming Co-Leader</h3>
+                                <p class="mb-2">Downingtown Area Robotics / 2020 - Current</p>
+                                <p class="text-muted">
+                                    I am the <b>Lead Developer</b> and a <b>current member</b> of the <a
+                                        href="https://darobotics.org/" target="_blank">Downingtown Area Robotics
+                                        (501)(c) Organization</a>
+                                    This organization has played a pivotal role in my development as
+                                    <b>programmer</b> and a <b>person</b>.
+                                </p>
+                            </div>
+                            <p class="fw-500 text-start mb-2" style="font-size: 1.25rem;">HTML/CSS</p>
+                            <div id="html" class="border-start border-2 border-primary ps-3 mb-4"
+                                style="backdrop-filter: blur(7px) brightness(1.1);">
+                                <h3 class="text-5">Lead Web Developer / Programming Co-Leader</h3>
+                                <p class="mb-2">Downingtown Area Robotics / 2020 - Current</p>
+                                <p class="text-muted">
+                                    I am the <b>Lead Developer</b> and a <b>current member</b> of the <a
+                                        href="https://darobotics.org/" target="_blank">Downingtown Area Robotics
+                                        (501)(c) Organization</a>
+                                    This organization has played a pivotal role in my development as
+                                    <b>programmer</b> and a <b>person</b>.
+                                </p>
+                            </div>
+                            <p class="fw-500 text-start mb-2" style="font-size: 1.25rem;">JavaScript</p>
+                            <div id="javascript" class="border-start border-2 border-primary ps-3 mb-4"
+                                style="backdrop-filter: blur(7px) brightness(1.1);">
+                                <h3 class="text-5">Lead Web Developer / Programming Co-Leader</h3>
+                                <p class="mb-2">Downingtown Area Robotics / 2020 - Current</p>
+                                <p class="text-muted">
+                                    I am the <b>Lead Developer</b> and a <b>current member</b> of the <a
+                                        href="https://darobotics.org/" target="_blank">Downingtown Area Robotics
+                                        (501)(c) Organization</a>
+                                    This organization has played a pivotal role in my development as
+                                    <b>programmer</b> and a <b>person</b>.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <p class="fw-500 text-start mb-2" style="font-size: 1.25rem;">Python</p>
+                            <div id="python" class="border-start border-2 border-primary ps-3 mb-4"
+                                style="backdrop-filter: blur(7px) brightness(1.1);">
+                                <h3 class="text-5">Lead Web Developer / Programming Co-Leader</h3>
+                                <p class="mb-2">Downingtown Area Robotics / 2020 - Current</p>
+                                <p class="text-muted">
+                                    I am the <b>Lead Developer</b> and a <b>current member</b> of the <a
+                                        href="https://darobotics.org/" target="_blank">Downingtown Area Robotics
+                                        (501)(c) Organization</a>
+                                    This organization has played a pivotal role in my development as
+                                    <b>programmer</b> and a <b>person</b>.
+                                </p>
+                            </div>
+                            <p class="fw-500 text-start mb-2" style="font-size: 1.25rem;">MySQL</p>
+                            <div id="sql" class="border-start border-2 border-primary ps-3 mb-4"
+                                style="backdrop-filter: blur(7px) brightness(1.1);">
+                                <h3 class="text-5">Lead Web Developer / Programming Co-Leader</h3>
+                                <p class="mb-2">Downingtown Area Robotics / 2020 - Current</p>
+                                <p class="text-muted">
+                                    I am the <b>Lead Developer</b> and a <b>current member</b> of the <a
+                                        href="https://darobotics.org/" target="_blank">Downingtown Area Robotics
+                                        (501)(c) Organization</a>
+                                    This organization has played a pivotal role in my development as
+                                    <b>programmer</b> and a <b>person</b>.
+                                </p>
+                            </div>
+                            <p class="fw-500 text-start mb-2" style="font-size: 1.25rem;">Bootstrap</p>
+                            <div id="bootstrap" class="border-start border-2 border-primary ps-3 mb-4"
+                                style="backdrop-filter: blur(7px) brightness(1.1);">
+                                <h3 class="text-5">Lead Web Developer / Programming Co-Leader</h3>
+                                <p class="mb-2">Downingtown Area Robotics / 2020 - Current</p>
+                                <p class="text-muted">
+                                    I am the <b>Lead Developer</b> and a <b>current member</b> of the <a
+                                        href="https://darobotics.org/" target="_blank">Downingtown Area Robotics
+                                        (501)(c) Organization</a>
+                                    This organization has played a pivotal role in my development as
+                                    <b>programmer</b> and a <b>person</b>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-center text-light mt-5 wow fadeInUp"><a href="#"
+                            class="btn btn-outline-light shadow-none rounded-0">Download CV</a></p>
                 </div>
-            </div><img class="img-fluid mx-auto d-block vw-50 in-left" style="width: 25vw;"
-                alt="Neoto - Creative Studio Portfolio Template"
-                src="https://static.vecteezy.com/system/resources/previews/000/375/394/original/vintage-elegant-divider-or-separator-swirl-or-corner-flourish-vector.jpg">
-            <div class="container py-6">
-                <!-- <div class="row">
-                    <div class="offset-sm-2 col-sm-8">
-                        <h3>A heavenly character</h3>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
-                            model text, and a search for 'lorem ipsum' will uncover many web sites still in their
-                            infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
-                            purpose.</p><a class="lightbox" href="images/project8.jpg"><img class="w-100 img-fluid mt-5"
-                                alt="Neoto - Creative Studio Portfolio Template" src="images/project8.jpg"></a>
-                    </div>
-                </div> -->
-                <div class="row g-5 mt-5">
-                    <!-- My Education -->
-                    <div class="col-lg-6 wow in-left">
-                        <h2 class="text-7 fw-600 mb-4 pb-2">My Education</h2>
-                        <div class="border-start border-2 border-primary ps-3"
-                            style="backdrop-filter: blur(7px) brightness(1.1);">
-                            <h3 class="text-5">Sophmore in High School</h3>
-                            <p class="mb-2">Downingtown STEM Academy / August 2021 - Present</p>
-                            <p class="text-muted">
-                                I am currently progressing into my 10th grade year at the <a href="https://st.dasd.org/"
-                                    target="_blank">Downingtown STEM
-                                    Academy</a>. <br>
-                                I enrolled into this school because of my deep interest in the <b>STEM
-                                    Fields</b> (<i>Science, Technology, Engineering, and Math</i>).
-                            </p>
-                            <hr class="my-4">
-                            <!-- <h3 class="text-5">Masters in Electrical Engineering</h3>
-                            <p class="mb-2">University of Pennsylvania / August 2021 - Present</p>
-                            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p> -->
-                            <hr class="my-4">
-                            <!-- <h3 class="text-5">Masters in Quantum Physics</h3>
-                            <p class="mb-2">CERN Laboratory / August 2019 - June 2021</p>
-                            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p> -->
-                        </div>
-                    </div>
-                    <!-- My Experience -->
-                    <div class="col-lg-6 wow in-left" data-wow-delay="0.2s">
-                        <h2 class="text-7 fw-600 mb-4 pb-2">My Experience</h2>
-                        <div class="border-start border-2 border-primary ps-3"
-                            style="backdrop-filter: blur(7px) brightness(1.1);">
-                            <h3 class="text-5">Lead Web Developer / Programming Co-Leader</h3>
-                            <p class="mb-2">Downingtown Area Robotics / 2020 - Current</p>
-                            <p class="text-muted">
-                                I am the <b>Lead Developer</b> and a <b>current member</b> of the <a
-                                    href="https://darobotics.org/" target="_blank">Downingtown Area Robotics
-                                    (501)(c) Organization</a>
-                                This organization has played a pivotal role in my development as
-                                <b>programmer</b> and a <b>person</b>.
-                            </p>
-                            <!-- <hr class="my-4">
-                            <h3 class="text-5">Jr. Font End Developer</h3>
-                            <p class="mb-2">Dribbble Inc / 2018 - 2020</p>
-                            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p> -->
-                            <hr class="my-4">
-                            <h3 class="text-5">Full Stack Web Developer</h3>
-                            <p class="mb-2">Adobe Inc / 2017 - 2018</p>
-                            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and
-                                typesetting industry. Lorem Ipsum has been the dummy text.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- My Skills -->
-                <h2 class="text-7 fw-600 mb-4 pb-2 mt-5 wow in-left">My Skills</h2>
-                <div class="row gx-5" style="backdrop-filter: blur(7px) brightness(1.1);">
-                    <div class="col-md-6 wow in-left">
-                        <p class="fw-500 text-start mb-2" style="font-size: 1.25rem;"><button class="accordion-button"
-                                style="display: block !important; flex-direction: row-reverse !important; padding: 0 0 !important; background-color: transparent !important; color: inherit !important; font-size: inherit !important;"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#swift" aria-expanded="true"
-                                aria-controls="swift"><i class="bi bi-file-text"></i>Swift <span
-                                    class="float-end percent count">65</span></i></button></p>
-                        <div class="progress progress-sm mb-4">
-                            <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <div class="border-start border-2 border-primary ps-3 mb-4"
-                            style="backdrop-filter: blur(7px) brightness(1.1);">
-                            <h3 class="text-5">Lead Web Developer / Programming Co-Leader</h3>
-                            <p class="mb-2">Downingtown Area Robotics / 2020 - Current</p>
-                            <p class="text-muted">
-                                I am the <b>Lead Developer</b> and a <b>current member</b> of the <a
-                                    href="https://darobotics.org/" target="_blank">Downingtown Area Robotics
-                                    (501)(c) Organization</a>
-                                This organization has played a pivotal role in my development as
-                                <b>programmer</b> and a <b>person</b>.
-                            </p>
-                        </div>
-                        <p class="fw-500 text-start mb-2" style="font-size: 1.25rem;"><button class="accordion-button"
-                                style="display: block !important; flex-direction: row-reverse !important; padding: 0 0 !important; background-color: transparent !important; color: inherit !important; font-size: inherit !important;"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#html" aria-expanded="true"
-                                aria-controls="html"><i class="bi bi-file-text"></i>HTML/CSS <span
-                                    class="float-end percent count">95</span></button></p>
-                        <div class="progress progress-sm mb-4">
-                            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <div id="html" class="border-start border-2 border-primary ps-3 accordion-collapse collapse"
-                            style="backdrop-filter: blur(7px) brightness(1.1);">
-                            <h3 class="text-5">Lead Web Developer / Programming Co-Leader</h3>
-                            <p class="mb-2">Downingtown Area Robotics / 2020 - Current</p>
-                            <p class="text-muted">
-                                I am the <b>Lead Developer</b> and a <b>current member</b> of the <a
-                                    href="https://darobotics.org/" target="_blank">Downingtown Area Robotics
-                                    (501)(c) Organization</a>
-                                This organization has played a pivotal role in my development as
-                                <b>programmer</b> and a <b>person</b>.
-                            </p>
-                        </div>
-                        <p class="fw-500 text-start mb-2" style="font-size: 1.25rem;"><button class="accordion-button"
-                                style="display: block !important; flex-direction: row-reverse !important; padding: 0 0 !important; background-color: transparent !important; color: inherit !important; font-size: inherit !important;"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#javascript"
-                                aria-expanded="true" aria-controls="javascript"><i
-                                    class="bi bi-file-text"></i>JavaScript <span
-                                    class="float-end percent count">80</span></button></p>
-                        <div class="progress progress-sm mb-4">
-                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <div id="javascript"
-                            class="border-start border-2 border-primary ps-3 accordion-collapse collapse"
-                            style="backdrop-filter: blur(7px) brightness(1.1);">
-                            <h3 class="text-5">Lead Web Developer / Programming Co-Leader</h3>
-                            <p class="mb-2">Downingtown Area Robotics / 2020 - Current</p>
-                            <p class="text-muted">
-                                I am the <b>Lead Developer</b> and a <b>current member</b> of the <a
-                                    href="https://darobotics.org/" target="_blank">Downingtown Area Robotics
-                                    (501)(c) Organization</a>
-                                This organization has played a pivotal role in my development as
-                                <b>programmer</b> and a <b>person</b>.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <p class="fw-500 text-start mb-2" style="font-size: 1.25rem;"><button class="accordion-button"
-                                style="display: block !important; flex-direction: row-reverse !important; padding: 0 0 !important; background-color: transparent !important; color: inherit !important; font-size: inherit !important;"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#python" aria-expanded="true"
-                                aria-controls="python"><i class="bi bi-file-text"></i>Python <span
-                                    class="float-end percent count">70</span></button></p>
-                        <div class="progress progress-sm mb-4">
-                            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <div id="python" class="border-start border-2 border-primary ps-3 accordion-collapse collapse"
-                            style="backdrop-filter: blur(7px) brightness(1.1);">
-                            <h3 class="text-5">Lead Web Developer / Programming Co-Leader</h3>
-                            <p class="mb-2">Downingtown Area Robotics / 2020 - Current</p>
-                            <p class="text-muted">
-                                I am the <b>Lead Developer</b> and a <b>current member</b> of the <a
-                                    href="https://darobotics.org/" target="_blank">Downingtown Area Robotics
-                                    (501)(c) Organization</a>
-                                This organization has played a pivotal role in my development as
-                                <b>programmer</b> and a <b>person</b>.
-                            </p>
-                        </div>
-                        <p class="fw-500 text-start mb-2" style="font-size: 1.25rem;"><button class="accordion-button"
-                                style="display: block !important; flex-direction: row-reverse !important; padding: 0 0 !important; background-color: transparent !important; color: inherit !important; font-size: inherit !important;"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#sql" aria-expanded="true"
-                                aria-controls="sql"><i class="bi bi-file-text"></i>MySQL <span
-                                    class="float-end percent count">60</span></button></p>
-                        <div class="progress progress-sm mb-4">
-                            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <div id="sql" class="border-start border-2 border-primary ps-3 accordion-collapse collapse"
-                            style="backdrop-filter: blur(7px) brightness(1.1);">
-                            <h3 class="text-5">Lead Web Developer / Programming Co-Leader</h3>
-                            <p class="mb-2">Downingtown Area Robotics / 2020 - Current</p>
-                            <p class="text-muted">
-                                I am the <b>Lead Developer</b> and a <b>current member</b> of the <a
-                                    href="https://darobotics.org/" target="_blank">Downingtown Area Robotics
-                                    (501)(c) Organization</a>
-                                This organization has played a pivotal role in my development as
-                                <b>programmer</b> and a <b>person</b>.
-                            </p>
-                        </div>
-                        <p class="fw-500 text-start mb-2" style="font-size: 1.25rem;"><button class="accordion-button"
-                                style="display: block !important; flex-direction: row-reverse !important; padding: 0 0 !important; background-color: transparent !important; color: inherit !important; font-size: inherit !important;"
-                                type="button" data-bs-toggle="collapse" data-bs-target="#bootstrap" aria-expanded="true"
-                                aria-controls="bootstrap"><i class="bi bi-file-text"></i>Bootstrap <span
-                                    class="float-end percent count">99</span></button></p>
-                        <div class="progress progress-sm mb-4">
-                            <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="99"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <div id="bootstrap"
-                            class="border-start border-2 border-primary ps-3 accordion-collapse collapse"
-                            style="backdrop-filter: blur(7px) brightness(1.1);">
-                            <h3 class="text-5">Lead Web Developer / Programming Co-Leader</h3>
-                            <p class="mb-2">Downingtown Area Robotics / 2020 - Current</p>
-                            <p class="text-muted">
-                                I am the <b>Lead Developer</b> and a <b>current member</b> of the <a
-                                    href="https://darobotics.org/" target="_blank">Downingtown Area Robotics
-                                    (501)(c) Organization</a>
-                                This organization has played a pivotal role in my development as
-                                <b>programmer</b> and a <b>person</b>.
-                            </p>
+                <div class="container">
+                    <div class="row">
+                        <div class="offset-sm-3 col-sm-6">
+                            <h3>My Extracurriculars</h3>
+                            <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                                default
+                                model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                                infancy.</p>
                         </div>
                     </div>
                 </div>
-                <p class="text-center text-light mt-5 wow fadeInUp"><a href="#"
-                        class="btn btn-outline-light shadow-none rounded-0">Download CV</a></p>
-            </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="offset-sm-3 col-sm-6">
-                        <h3>Vibrant in every aspect</h3>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
-                            model text, and a search for 'lorem ipsum' will uncover many web sites still in their
-                            infancy.</p>
+                <div class="container"><a class="lightbox" href="images/project9.jpg"><img class="w-100 img-fluid my-5"
+                            alt="" src="images/project9.jpg"></a>
+                    <div class="row py-6">
+                        <div class="offset-sm-3 col-sm-6">
+                            <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                                default
+                                model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                                infancy. Various versions have evolved over the years, sometimes by accident, sometimes
+                                on
+                                purpose (injected humour and the like).</p>
+                        </div>
+                    </div>
+                    <div class="row pb-5">
+                        <div class="col-sm-6"><a class="lightbox" href="images/project10.jpg"><img
+                                    class="w-100 img-fluid my-5" alt=""
+                                    src="images/project10.jpg"></a></div>
+                        <div class="col-sm-6"><a class="lightbox" href="images/project11.jpg"><img
+                                    class="w-100 img-fluid my-5" alt=""
+                                    src="images/project11.jpg"></a></div>
                     </div>
                 </div>
-            </div>
-            <div class="container"><a class="lightbox" href="images/project9.jpg"><img class="w-100 img-fluid my-5"
-                        alt="Neoto - Creative Studio Portfolio Template" src="images/project9.jpg"></a>
-                <div class="row py-6">
-                    <div class="offset-sm-3 col-sm-6">
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
-                            model text, and a search for 'lorem ipsum' will uncover many web sites still in their
-                            infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
-                            purpose (injected humour and the like).</p>
+            </section>
+            <footer>
+                <div class="container-fluid p-5">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="social"><a class="trigger" href="#">Follow</a>
+                            <ul class="social-nav">
+                                <li> <a href="#">Instagram</a></li>
+                                <li> <a href="#">Twitter</a></li>
+                                <li> <a href="#">Vimeo</a></li>
+                                <li> <a href="#">YouTube</a></li>
+                            </ul>
+                        </div>
+                        <div class="copy">2021 &copy; YourBrand. All rights reserved</div><a class="to-top"
+                            href="#"><svg class="bi" width="32" height="32" fill="currentColor">
+                                <use xlink:href="images/bootstrap-icons.svg#chevron-compact-up"></use>
+                            </svg></a>
                     </div>
                 </div>
-                <div class="row pb-5">
-                    <div class="col-sm-6"><a class="lightbox" href="images/project10.jpg"><img
-                                class="w-100 img-fluid my-5" alt="Neoto - Creative Studio Portfolio Template"
-                                src="images/project10.jpg"></a></div>
-                    <div class="col-sm-6"><a class="lightbox" href="images/project11.jpg"><img
-                                class="w-100 img-fluid my-5" alt="Neoto - Creative Studio Portfolio Template"
-                                src="images/project11.jpg"></a></div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="container-fluid p-5">
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="social"><a class="trigger" href="#">Follow</a>
-                    <ul class="social-nav">
-                        <li> <a href="#">Instagram</a></li>
-                        <li> <a href="#">Twitter</a></li>
-                        <li> <a href="#">Vimeo</a></li>
-                        <li> <a href="#">YouTube</a></li>
-                    </ul>
-                </div>
-                <div class="copy">2021 &copy; YourBrand. All rights reserved</div><a class="to-top" href="#"><svg
-                        class="bi" width="32" height="32" fill="currentColor">
-                        <use xlink:href="images/bootstrap-icons.svg#chevron-compact-up"></use>
-                    </svg></a>
-            </div>
-        </div>
-    </footer>
+            </footer>
+        </main>
+    </div>
     <script src="js/main.bundle.js"></script>
 </body>
 

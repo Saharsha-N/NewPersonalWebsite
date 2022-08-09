@@ -2128,7 +2128,7 @@ class Yr {
   initEvents() {
     for (const t of this.items) t.DOM.el.addEventListener("click", (() => this.expand(t)))
     for (const t of this.items) t.DOM.el.addEventListener("click", function() {
-      this.classList.add('visible');
+      this.classList.add('apparent');
     })
   }
   expand(t) {

@@ -8,6 +8,7 @@
  */
 
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -70,6 +71,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;
+    background-color: #3A3A42;
     line-height: 1.5;
     color: #212529;
     text-align: left;
@@ -11379,6 +11381,8 @@ html {
 
 body {
     font-family: "Inter", sans-serif;
+    box-sizing: content-box;
+    background-color: #3A3A42 !important;
 }
 
 h1,
@@ -11708,12 +11712,6 @@ header {
 
 .navbar-brand img.inverted {
     opacity: 0;
-}
-
-body.scrolled header {
-    padding: 0;
-    backdrop-filter: saturate(180%) blur(20px);
-    background-color: rgba(255, 255, 255, 0.6);
 }
 
 body.scrolled .navbar-brand {
@@ -12533,6 +12531,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    box-sizing: content-box;
 }
 
 body.loaded {
@@ -12727,6 +12726,7 @@ footer .copy {
     top: 0;
     bottom: 0;
     left: 100%;
+    white-space: nowrap;
     display: flex;
     list-style: none;
     padding: 0 1em;
@@ -12753,7 +12753,7 @@ footer .copy {
     transition: 0.2s opacity;
     color: #141414;
     font-weight: 400;
-    font-size: 0.675em;
+    font-size: 0.675em !important;
     text-transform: uppercase;
     letter-spacing: 0.4em;
 }

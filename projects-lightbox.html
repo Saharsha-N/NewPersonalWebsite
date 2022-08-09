@@ -5,11 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
     <title>Neoto | Portfolio HTML Template</title>
     <link href="css/main.bundle.css" rel="stylesheet" type="text/css">
     <link href="css/custom.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/base.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&amp;display=swap" rel="stylesheet"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">>
     <link rel="stylesheet" href="css/magnific-popup.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <!-- Bootstrap Icons (bi) -->
@@ -18,221 +25,313 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#777777">
     <meta name="msapplication-TileColor" content="#999999">
     <meta name="theme-color" content="#999999">
 </head>
 
 <body>
+    <div class="menu" id="menu">
+        <nav>
+            <ul>
+                <li class="nav-item active"><a class="nav-link" href="index.html">home</a></li>
+                <li class="nav-item dropdown">
+                    <div class="social"><a class="trigger" href="#" style="  line-height: 2em;
+                        letter-spacing: .3em;">pages</a>
+                        <ul class="social-nav">
+                            <li> <a href="#">About</a></li>
+                            <li> <a href="#">Services</a></li>
+                            <li> <a href="#">404</a></li>
+                            <li> <a href="#">YouTube</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <div class="social"><a class="trigger" href="#">portfolio</a>
+                        <ul class="social-nav">
+                            <li> <a href="#">Projects - Grid</a></li>
+                            <li> <a href="#">Projects - Slider</a></li>
+                            <li> <a href="#">Project single</a></li>
+                            <li> <a href="#">Project single - Hero</a></li>
+                            <li> <a href="#">Project single - Alt</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <div class="social"><a class="trigger" href="#">blog</a>
+                        <ul class="social-nav">
+                            <li> <a href="#">Blog - Slider</a></li>
+                            <li> <a href="#">Blog single</a></li>
+                            <li> <a href="#">Blog single - Hero</a></li>
+                            <li> <a href="#">Blog single - Alt</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </div>
     <header class="fixed-top ">
-        <div class="navbar"><a class="navbar-brand" href="index.html"> <img class="default"
-                    alt="Neoto - Creative Studio Portfolio Template" src="images/logo.svg"><img class="inverted"
-                    alt="Neoto - Creative Studio Portfolio Template" src="images/logo-white.svg"></a><button
+        <div class="navbar"><a class="navbar-brand" href="index.html"> <img class="default" alt=""
+                    src="images/logo.svg"><img class="inverted" alt="" src="images/logo-white.svg"></a><button
                 class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"><span
                     class="toggle-label">Menu</span><span class="toggle-label-close">Close</span><span
                     class="toggle-icon"><span class="line"></span><span class="line"></span></span></button></div>
-        <ul id="nav">
-            <li class="nav-item active"><a class="nav-link" href="index.html">home</a></li>
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                    data-toggle="dropdown">pages</a>
-                <div class="dropdown-menu"><a class="dropdown-item" href="about.html">About</a><a class="dropdown-item"
-                        href="services.html">Services</a><a class="dropdown-item" href="404.html">404</a></div>
-            </li>
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                    data-toggle="dropdown">portfolio</a>
-                <div class="dropdown-menu"><a class="dropdown-item" href="projects-grid.html">Projects - Grid</a><a
-                        class="dropdown-item" href="projects-slider.html">Projects - Slider</a><a class="dropdown-item"
-                        href="projects-lightbox.html">Projects - Lightbox</a><a class="dropdown-item"
-                        href="project-single.html">Project single</a><a class="dropdown-item"
-                        href="project-single-hero.html">Project single - Hero</a><a class="dropdown-item"
-                        href="resume.html">Project single - Alt</a></div>
-            </li>
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-                    data-toggle="dropdown">blog</a>
-                <div class="dropdown-menu"><a class="dropdown-item" href="blog-slider.html">Blog - Slider</a><a
-                        class="dropdown-item" href="blog-grid.html">Blog - Grid</a><a class="dropdown-item"
-                        href="blog-single.html">Blog single</a><a class="dropdown-item" href="blog-single-alt.html">Blog
-                        single - Alt</a><a class="dropdown-item" href="blog-single-hero.html">Blog single - Hero</a>
-                </div>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">contact</a></li>
-        </ul>
     </header>
-    <main>
-        <section>
-            <div class="container-fluid py-6">
-                <h1> <span class="d-block in-left">My Projects &mdash;</span><span class="d-block in-top">
-                        <h2>
-                            Saharsha
-                            Navani
-                        </h2>
-                    </span></h1>
-            </div>
-            <div class="container-fluid">
-                <div class="grid text-center">
-                    <div class="content">
-                        <h3 class="content__title">Early years</h3>
-                        <div class="grid" data-duration="0.8" data-ease="expo" data-scale="2" data-max-rotation="8"
-                            data-spread="50" data-max-distance="500">
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://i.pinimg.com/originals/f3/f1/8a/f3f18a08c249903f80395a1930430f7d.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://www.bubolaenaibo.fr/wp-content/uploads/2019/04/GLOSS-MM21A0F0-667x1000.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52603_detail_a.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52603_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://www.bubolaenaibo.fr/wp-content/uploads/2019/04/GLOSS-MM21A0F0-667x1000.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://i.pinimg.com/originals/f3/f1/8a/f3f18a08c249903f80395a1930430f7d.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://www.bubolaenaibo.fr/wp-content/uploads/2019/04/GLOSS-MM21A0F0-667x1000.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52603_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://www.bubolaenaibo.fr/wp-content/uploads/2019/04/GLOSS-MM21A0F0-667x1000.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52603_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://i.pinimg.com/originals/f3/f1/8a/f3f18a08c249903f80395a1930430f7d.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://i.pinimg.com/originals/f3/f1/8a/f3f18a08c249903f80395a1930430f7d.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://www.bubolaenaibo.fr/wp-content/uploads/2019/04/GLOSS-MM21A0F0-667x1000.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://www.bubolaenaibo.fr/wp-content/uploads/2019/04/GLOSS-MM21A0F0-667x1000.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://i.pinimg.com/originals/f3/f1/8a/f3f18a08c249903f80395a1930430f7d.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://i.pinimg.com/originals/f3/f1/8a/f3f18a08c249903f80395a1930430f7d.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52603_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://i.pinimg.com/originals/f3/f1/8a/f3f18a08c249903f80395a1930430f7d.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52603_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://i.pinimg.com/originals/f3/f1/8a/f3f18a08c249903f80395a1930430f7d.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52603_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://i.pinimg.com/originals/f3/f1/8a/f3f18a08c249903f80395a1930430f7d.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')"></div>
-                            </div>
-                            <div class="grid__item">
-                                <div class="grid__item-img" style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')"></div>
+    <div class="container2">
+
+        <main>
+            <section>
+                <div class="container-fluid py-6">
+                    <h1> <span class="d-block in-left">My Projects &mdash;</span><span class="d-block in-top">
+                            <h2>
+                                Saharsha
+                                Navani
+                            </h2>
+                        </span></h1>
+                </div>
+                <div class="container-fluid">
+                    <div class="grid text-center">
+                        <div class="content">
+                            <h3 class="content__title">Early years</h3>
+                            <div class="grid" data-duration="0.8" data-ease="expo" data-scale="2" data-max-rotation="8"
+                                data-spread="50" data-max-distance="500">
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://i.pinimg.com/originals/f3/f1/8a/f3f18a08c249903f80395a1930430f7d.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://www.bubolaenaibo.fr/wp-content/uploads/2019/04/GLOSS-MM21A0F0-667x1000.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52603_detail_a.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52603_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://www.bubolaenaibo.fr/wp-content/uploads/2019/04/GLOSS-MM21A0F0-667x1000.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://i.pinimg.com/originals/f3/f1/8a/f3f18a08c249903f80395a1930430f7d.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://www.bubolaenaibo.fr/wp-content/uploads/2019/04/GLOSS-MM21A0F0-667x1000.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52603_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://www.bubolaenaibo.fr/wp-content/uploads/2019/04/GLOSS-MM21A0F0-667x1000.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52603_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://i.pinimg.com/originals/f3/f1/8a/f3f18a08c249903f80395a1930430f7d.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://i.pinimg.com/originals/f3/f1/8a/f3f18a08c249903f80395a1930430f7d.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://www.bubolaenaibo.fr/wp-content/uploads/2019/04/GLOSS-MM21A0F0-667x1000.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://www.bubolaenaibo.fr/wp-content/uploads/2019/04/GLOSS-MM21A0F0-667x1000.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://i.pinimg.com/originals/f3/f1/8a/f3f18a08c249903f80395a1930430f7d.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://i.pinimg.com/originals/f3/f1/8a/f3f18a08c249903f80395a1930430f7d.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52603_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://i.pinimg.com/originals/f3/f1/8a/f3f18a08c249903f80395a1930430f7d.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52603_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://i.pinimg.com/originals/f3/f1/8a/f3f18a08c249903f80395a1930430f7d.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52603_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://i.pinimg.com/originals/f3/f1/8a/f3f18a08c249903f80395a1930430f7d.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')">
+                                    </div>
+                                </div>
+                                <div class="grid__item">
+                                    <div class="grid__item-img"
+                                        style="background-image:url('https://static.kareuae.ae/catalog/product/cache/1e8ef93b9b4867ab9f3538dde2cb3b8a/5/2/52602_detail_b.jpg')">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="container my-5 py-6">
-                <div class="row justify-content-md-center text-center">
-                    <div class="col-sm-8">
-                        <h3>An unobstrusive approach</h3>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
-                            model text, and a search for 'lorem ipsum' will uncover many web sites still in their
-                            infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
-                            purpose.</p>
+                <div class="container my-5 py-6">
+                    <div class="row justify-content-md-center text-center">
+                        <div class="col-sm-8">
+                            <h3>An unobstrusive approach</h3>
+                            <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                                default
+                                model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                                infancy. Various versions have evolved over the years, sometimes by accident, sometimes
+                                on
+                                purpose.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="container-fluid p-5">
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="social"><a class="trigger" href="#">Follow</a>
-                    <ul class="social-nav">
-                        <li> <a href="#">Instagram</a></li>
-                        <li> <a href="#">Twitter</a></li>
-                        <li> <a href="#">Vimeo</a></li>
-                        <li> <a href="#">YouTube</a></li>
-                    </ul>
+            </section>
+        </main>
+        <footer>
+            <div class="container-fluid p-5">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="social"><a class="trigger" href="#">Follow</a>
+                        <ul class="social-nav">
+                            <li> <a href="#">Instagram</a></li>
+                            <li> <a href="#">Twitter</a></li>
+                            <li> <a href="#">Vimeo</a></li>
+                            <li> <a href="#">YouTube</a></li>
+                        </ul>
+                    </div>
+                    <div class="copy">2021 &copy; YourBrand. All rights reserved</div><a class="to-top" href="#"><svg
+                            class="bi" width="32" height="32" fill="currentColor">
+                            <use xlink:href="images/bootstrap-icons.svg#chevron-compact-up"></use>
+                        </svg></a>
                 </div>
-                <div class="copy">2021 &copy; YourBrand. All rights reserved</div><a class="to-top" href="#"><svg
-                        class="bi" width="32" height="32" fill="currentColor">
-                        <use xlink:href="images/bootstrap-icons.svg#chevron-compact-up"></use>
-                    </svg></a>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <script src="js/main.bundle.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/jquery.min.js"></script> 
+    <script src="js/jquery.min.js"></script>
     <script src="js/index.js"></script>
     <script>
         $(window).ready(function () {
