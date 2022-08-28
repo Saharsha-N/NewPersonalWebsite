@@ -218,22 +218,23 @@ img.default {
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.05);
 }
 .menu.visible {
-  width: 28.5vw;
-  background: #F9D401;
+  width: 34.5vw;
+  background: #f9d401;
   transition: width 1s !important;
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.05);
 }
 .menu.visible ~ .container2 {
-  transform: perspective(110vw) rotateY(-10deg) translateX(-15vw) scaleY(1) scaleX(0.8) scale(0.9);
+  transform: perspective(110vw) rotateY(-10deg) translateX(-17vw) scaleY(1)
+    scaleX(0.75) scale(0.9);
   box-shadow: 25px 25px 1px black;
   transition: 1.25s cubic-bezier(0.15, 0.985, 0.22, 1.2);
   outline: none;
 }
 .menu.visible nav {
-  right: 20%;
+  right: 30%;
 }
 .container2 {
-  background: #FDFDFD;
+  background: #fdfdfd;
   transition: 1.5s;
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.12, 1);
   transform-origin: center;
@@ -257,12 +258,15 @@ nav ul {
 }
 nav li {
   line-height: 2em !important;
-  letter-spacing: .3em !important;
+  letter-spacing: 0.3em !important;
 }
 nav a {
   font-size: 30px !important;
   padding: 0.5rem 1rem;
-  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
   color: white;
   font-weight: 600;
 }

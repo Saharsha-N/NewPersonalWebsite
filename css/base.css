@@ -60,7 +60,6 @@ body {
 
 a {
 	text-decoration: none;
-	color: var(--color-link);
 	outline: none;
 	white-space: nowrap;
 	overflow: hidden;

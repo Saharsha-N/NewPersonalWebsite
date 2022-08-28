@@ -177,12 +177,6 @@ sup {
     top: -0.5em;
 }
 
-a {
-    color: #007bff;
-    text-decoration: none;
-    background-color: transparent;
-}
-
 a:hover {
     color: #0056b3;
     text-decoration: underline;
@@ -12712,7 +12706,10 @@ footer .copy {
     display: inline-block;
     position: relative;
     z-index: 2;
-    text-decoration: none;
+    text-decoration: none !important;
+    text-decoration-thickness: 0 !important;
+    text-decoration-style: solid !important;
+    text-decoration-color: transparent !important;
     font-weight: 600;
     font-size: 0.675em;
     text-transform: uppercase;
